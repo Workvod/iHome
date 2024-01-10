@@ -1,0 +1,26 @@
+.btn-box {
+		  display: -webkit-box;
+		  display: -ms-flexbox;
+		  display: flex;
+		  -webkit-box-pack: center;
+		      -ms-flex-pack: center;
+		          justify-content: center;
+		  margin-top: 45px;
+		}
+
+		.btn-box a {
+		  display: inline-block;
+		  padding: 10px 40px;
+		  background-color: #000;
+		  color: #ffffff;
+		  border: 1px solid #000;
+		  border-radius: 5px;
+		  -webkit-transition: all .3s;
+		  transition: all .3s;
+		  text-decoration:none;
+		}
+
+		.btn-box a:hover {
+		  background-color: transparent;
+		  color: #000;
+		}
